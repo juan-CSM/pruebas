@@ -9,7 +9,9 @@ int main(){
   v.push_back(3);
   v.push_back(2);
   v.push_back(9);
+  std::cout<<"--- Capturar datos en un vector de tamaño dinamico, -1 para salir"<<std::endl;
   while(temporal>= 0){
+    std::cout<<std::endl<<"ingresar valor: "<<std::endl;
     std::cin>>temporal;
     if(temporal>= 0){
       v.push_back(temporal);
